@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+body {
+  font-family: verdana;
+ 
+  color: white;
+  padding: 24px;
+    background-image: url("../images/desktop.jpg" );
+
+}
+
+
+@font-face {
+    font-family: 'swaggerlightlight';
+    src: url('../font/swaggerlight.eot');
+    src: url('../font/swaggerlight.eot?#iefix') format('embedded-opentype'),
+         url('../font/swaggerlight.woff2') format('woff2'),
+         url('../font/swaggerlight.woff') format('woff'),
+         url('../font/swaggerlight.ttf') format('truetype'),
+         url('../font/swaggerlight.svg#swaggerlightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+label {
+ font-family: 'swaggerlightlight';  
+ font-size: 24px; 
+line-height:10px;
+
+}
+
+
+tr {
+    border-style: solid;
+    border: 3px; gray solid;
+}
+
+td {
+    padding: 50px 50px 15px 50px;
+    line-height:22px;
+}
+
+td.left {
+
+    vertical-align: baseline;
+    text-align: center;
+    max-width:inherit;
+}
+
+
+em{
+  color:magenta;
+}
+
+form input {
+
+  padding:15px;
+    height: 10px;
+  background-color:white;
+  color:black;
+  font-size:14px;
+}
+
+form input[type="submit"] {
+  color:black;
+ text-align: center;
+font-family: 'swaggerlightlight'; 
+  
+
+}
+
+form input[type="reset"]{
+  
+    color:black;
+      text-align: center;
+    font-family: 'swaggerlightlight'; 
+    
+}
+
+@font-face {
+    font-family: 'where_stars_shine_the_brighRg';
+    src: url('../font/where_stars_shine_the_brightest.eot');
+    src: url('../font/where_stars_shine_the_brightest.eot?#iefix') format('embedded-opentype'),
+         url('../font/where_stars_shine_the_brightest.woff2') format('woff2'),
+         url('../font/where_stars_shine_the_brightest.woff') format('woff'),
+         url('../font/where_stars_shine_the_brightest.ttf') format('truetype'),
+         url('../font/where_stars_shine_the_brightest.svg#where_stars_shine_the_brighRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#myMsg{
+    
+    color:whitesmoke;
+    font-family:'where_stars_shine_the_brighRg';
+    font-size:150px;
+    max-width: 400px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.hide{
+  visibility:hidden;
+}
+
+.show{
+   
+  visibility:show;
+    font-size: 130px;
+    text-align: left;
+    padding: 40px;
+    width: 500px;
+    height:300px;
+}
+
+
+
+
+#table {
+    
+    border-style: dashed;
+	font-size:24px;
+	border-radius:14px;
+	background-color:rgba(0,0,0,.35);
+	align: center;
+	margin-left:auto;
+    margin-right: auto;
+    margin-top:  2%;
+   
+}
+
+
+
